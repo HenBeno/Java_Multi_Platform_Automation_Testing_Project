@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:9090/",
-  "buildOrder" : 5,
-  "buildName" : "ToDoListElectronTest #5",
-  "buildUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/",
+  "buildOrder" : 3,
+  "buildName" : "MortgageCalcAppiumTests #3",
+  "buildUrl" : "http://localhost:9090/job/MortgageCalcAppiumTests/3/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure"
+  "reportUrl" : "http://localhost:9090/job/MortgageCalcAppiumTests/3/allure"
 } ]

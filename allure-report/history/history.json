@@ -534,20 +534,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 9,
-      "passed" : 5,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 14
+      "total" : 13
     },
     "items" : [ {
-      "uid" : "d1a4c11d45ad8bd4",
-      "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure/#testresult/d1a4c11d45ad8bd4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004471495,
-        "stop" : 1639004472598,
-        "duration" : 1103
-      }
-    }, {
       "uid" : "c90719574590bedf",
       "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure/#testresult/c90719574590bedf",
       "status" : "passed",
@@ -781,20 +772,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 11,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "b5e33d06b91c9aaa",
-      "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure/#testresult/b5e33d06b91c9aaa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004409229,
-        "stop" : 1639004410866,
-        "duration" : 1637
-      }
-    }, {
       "uid" : "8250c069d7762499",
       "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure/#testresult/8250c069d7762499",
       "status" : "skipped",
@@ -1012,11 +994,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 9,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "9dcdbb8020755f6e",
+      "reportUrl" : "http://localhost:9090/job/MortgageCalcAppiumTests/3/allure/#testresult/9dcdbb8020755f6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639048698404,
+        "stop" : 1639048706315,
+        "duration" : 7911
+      }
+    }, {
       "uid" : "ba79c0e01b4395cb",
       "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/11/allure/#testresult/ba79c0e01b4395cb",
       "status" : "skipped",
@@ -1433,20 +1424,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 11,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "51d3667db44ad7d1",
-      "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure/#testresult/51d3667db44ad7d1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004404868,
-        "stop" : 1639004409056,
-        "duration" : 4188
-      }
-    }, {
       "uid" : "7ee080538afe866",
       "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure/#testresult/7ee080538afe866",
       "status" : "skipped",
@@ -1563,11 +1545,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 9,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "d9411f2569b82cf7",
+      "reportUrl" : "http://localhost:9090/job/MortgageCalcAppiumTests/3/allure/#testresult/d9411f2569b82cf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639048688504,
+        "stop" : 1639048698390,
+        "duration" : 9886
+      }
+    }, {
       "uid" : "54ef68c1d329248d",
       "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/11/allure/#testresult/54ef68c1d329248d",
       "status" : "skipped",
@@ -1892,20 +1883,11 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 9,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 14
+      "total" : 13
     },
     "items" : [ {
-      "uid" : "33665ba775521df9",
-      "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure/#testresult/33665ba775521df9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004477533,
-        "stop" : 1639004481017,
-        "duration" : 3484
-      }
-    }, {
       "uid" : "5e0fff53fc66c115",
       "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure/#testresult/5e0fff53fc66c115",
       "status" : "failed",
@@ -2041,20 +2023,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 9,
-      "passed" : 5,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 14
+      "total" : 13
     },
     "items" : [ {
-      "uid" : "a9c0499f40878c38",
-      "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure/#testresult/a9c0499f40878c38",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004472760,
-        "stop" : 1639004473763,
-        "duration" : 1003
-      }
-    }, {
       "uid" : "dc5ec6781639e9eb",
       "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure/#testresult/dc5ec6781639e9eb",
       "status" : "passed",
@@ -2595,11 +2568,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 9,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "d69a6c203309b7c",
+      "reportUrl" : "http://localhost:9090/job/MortgageCalcAppiumTests/3/allure/#testresult/d69a6c203309b7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639048683236,
+        "stop" : 1639048688404,
+        "duration" : 5168
+      }
+    }, {
       "uid" : "13449cc7a04c8ea",
       "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/11/allure/#testresult/13449cc7a04c8ea",
       "status" : "skipped",
@@ -2977,20 +2959,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 9,
-      "passed" : 5,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 14
+      "total" : 13
     },
     "items" : [ {
-      "uid" : "84e6a4a87d4f40bf",
-      "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure/#testresult/84e6a4a87d4f40bf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004473833,
-        "stop" : 1639004477459,
-        "duration" : 3626
-      }
-    }, {
       "uid" : "6a3d0ae0ed353fc5",
       "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure/#testresult/6a3d0ae0ed353fc5",
       "status" : "passed",

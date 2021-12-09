@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="ElectronSuite" duration-ms="14103" started-at="2021-12-09T01:01:07 IST" finished-at="2021-12-09T01:01:21 IST">
+  <suite name="AppiumSuite" duration-ms="35094" started-at="2021-12-09T13:17:54 IST" finished-at="2021-12-09T13:18:29 IST">
     <groups>
     </groups>
-    <test name="TestToDoList" duration-ms="14103" started-at="2021-12-09T01:01:07 IST" finished-at="2021-12-09T01:01:21 IST">
-      <class name="ToDoListElectronTest">
-        <test-method status="PASS" signature="startSession(java.lang.String,java.lang.String)[pri:0, instance:ToDoListElectronTest@7e1a1da6]" name="startSession" is-config="true" duration-ms="3810" started-at="2021-12-09T01:01:07 IST" description="Init driver " finished-at="2021-12-09T01:01:11 IST">
+    <test name="TestMortgage" duration-ms="35094" started-at="2021-12-09T13:17:54 IST" finished-at="2021-12-09T13:18:29 IST">
+      <class name="MortgageCalcAppiumTests">
+        <test-method status="PASS" signature="startSession(java.lang.String,java.lang.String)[pri:0, instance:MortgageCalcAppiumTests@5b800468]" name="startSession" is-config="true" duration-ms="8919" started-at="2021-12-09T13:17:54 IST" description="Init driver " finished-at="2021-12-09T13:18:03 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Electron]]>
+                <![CDATA[Appium]]>
               </value>
             </param>
             <param index="1">
@@ -21,34 +21,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startSession -->
-        <test-method status="PASS" signature="VerifyChangeOfColor()[pri:1, instance:ToDoListElectronTest@7e1a1da6]" name="VerifyChangeOfColor" duration-ms="1121" started-at="2021-12-09T01:01:11 IST" description="Verify change of color" finished-at="2021-12-09T01:01:12 IST">
+        <test-method status="PASS" signature="test01()[pri:0, instance:MortgageCalcAppiumTests@5b800468]" name="test01" duration-ms="5224" started-at="2021-12-09T13:18:03 IST" description="Verify repayment result" finished-at="2021-12-09T13:18:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyChangeOfColor -->
-        <test-method status="PASS" signature="test02_createNewTask()[pri:2, instance:ToDoListElectronTest@7e1a1da6]" name="test02_createNewTask" duration-ms="1004" started-at="2021-12-09T01:01:12 IST" description="Verify task created" finished-at="2021-12-09T01:01:13 IST">
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test02()[pri:0, instance:MortgageCalcAppiumTests@5b800468]" name="test02" duration-ms="9788" started-at="2021-12-09T13:18:08 IST" description="Verify interest result" finished-at="2021-12-09T13:18:18 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test02_createNewTask -->
-        <test-method status="PASS" signature="test02_delAllTask()[pri:3, instance:ToDoListElectronTest@7e1a1da6]" name="test02_delAllTask" duration-ms="3627" started-at="2021-12-09T01:01:13 IST" description="Verify all task deleted" finished-at="2021-12-09T01:01:17 IST">
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test03()[pri:0, instance:MortgageCalcAppiumTests@5b800468]" name="test03" duration-ms="7853" started-at="2021-12-09T13:18:18 IST" description="Verify result saving" finished-at="2021-12-09T13:18:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test02_delAllTask -->
-        <test-method status="PASS" signature="test02_delTaskByName()[pri:4, instance:ToDoListElectronTest@7e1a1da6]" name="test02_delTaskByName" duration-ms="3483" started-at="2021-12-09T01:01:17 IST" description="Verify task deleted by name" finished-at="2021-12-09T01:01:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test02_delTaskByName -->
-        <test-method status="PASS" signature="closeSession(java.lang.String)[pri:0, instance:ToDoListElectronTest@7e1a1da6]" name="closeSession" is-config="true" duration-ms="635" started-at="2021-12-09T01:01:21 IST" finished-at="2021-12-09T01:01:21 IST">
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="closeSession(java.lang.String)[pri:0, instance:MortgageCalcAppiumTests@5b800468]" name="closeSession" is-config="true" duration-ms="2934" started-at="2021-12-09T13:18:26 IST" finished-at="2021-12-09T13:18:29 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Electron]]>
+                <![CDATA[Appium]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- ToDoListElectronTest -->
-    </test> <!-- TestToDoList -->
-  </suite> <!-- ElectronSuite -->
+      </class> <!-- MortgageCalcAppiumTests -->
+    </test> <!-- TestMortgage -->
+  </suite> <!-- AppiumSuite -->
 </testng-results>

@@ -2,106 +2,55 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "DesktopSuite",
+    "name" : "AppiumSuite",
     "children" : [ {
       "name" : "TestMortgage",
       "children" : [ {
-        "name" : "CalculatorDesktopTests",
+        "name" : "MortgageCalcAppiumTests",
         "children" : [ {
-          "name" : "Verify calc result",
-          "uid" : "51d3667db44ad7d1",
-          "parentUid" : "deae13ae754d9019104cc98ab971608f",
+          "name" : "Verify repayment result",
+          "uid" : "d69a6c203309b7c",
+          "parentUid" : "c2fa77e4e9b446300e26822692fe0efe",
           "status" : "passed",
           "time" : {
-            "start" : 1639004404868,
-            "stop" : 1639004409056,
-            "duration" : 4188
+            "start" : 1639048683236,
+            "stop" : 1639048688404,
+            "duration" : 5168
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
-          "name" : "Verify in Scientific mode",
-          "uid" : "b5e33d06b91c9aaa",
-          "parentUid" : "deae13ae754d9019104cc98ab971608f",
+          "name" : "Verify interest result",
+          "uid" : "d9411f2569b82cf7",
+          "parentUid" : "c2fa77e4e9b446300e26822692fe0efe",
           "status" : "passed",
           "time" : {
-            "start" : 1639004409229,
-            "stop" : 1639004410866,
-            "duration" : 1637
+            "start" : 1639048688504,
+            "stop" : 1639048698390,
+            "duration" : 9886
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verify result saving",
+          "uid" : "9dcdbb8020755f6e",
+          "parentUid" : "c2fa77e4e9b446300e26822692fe0efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639048698404,
+            "stop" : 1639048706315,
+            "duration" : 7911
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "deae13ae754d9019104cc98ab971608f"
+        "uid" : "c2fa77e4e9b446300e26822692fe0efe"
       } ],
-      "uid" : "94aaf5fc853fcbf32fd849d57a577914"
+      "uid" : "0aed52455e01060088e7ed5176ab1702"
     } ],
-    "uid" : "b5310f9c6969f1d67575157705d1647d"
-  }, {
-    "name" : "ElectronSuite",
-    "children" : [ {
-      "name" : "TestToDoList",
-      "children" : [ {
-        "name" : "ToDoListElectronTest",
-        "children" : [ {
-          "name" : "Verify change of color",
-          "uid" : "d1a4c11d45ad8bd4",
-          "parentUid" : "c1c43542fd8cf9a3caff43728f83657a",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639004471495,
-            "stop" : 1639004472598,
-            "duration" : 1103
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Verify task created",
-          "uid" : "a9c0499f40878c38",
-          "parentUid" : "c1c43542fd8cf9a3caff43728f83657a",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639004472760,
-            "stop" : 1639004473763,
-            "duration" : 1003
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Verify all task deleted",
-          "uid" : "84e6a4a87d4f40bf",
-          "parentUid" : "c1c43542fd8cf9a3caff43728f83657a",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639004473833,
-            "stop" : 1639004477459,
-            "duration" : 3626
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Verify task deleted by name",
-          "uid" : "33665ba775521df9",
-          "parentUid" : "c1c43542fd8cf9a3caff43728f83657a",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639004477533,
-            "stop" : 1639004481017,
-            "duration" : 3484
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "c1c43542fd8cf9a3caff43728f83657a"
-      } ],
-      "uid" : "9efcbe978da94ef465ecf722913e6b90"
-    } ],
-    "uid" : "9db2a88104f3876b911a80389ebe86bd"
+    "uid" : "e331aaead27c33a2e2be5378850e476e"
   } ]
 }

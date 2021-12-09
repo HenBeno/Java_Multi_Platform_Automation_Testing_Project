@@ -1,10 +1,10 @@
 [ {
-  "buildOrder" : 5,
-  "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure",
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:9090/job/MortgageCalcAppiumTests/3/allure",
   "reportName" : "AllureReport",
   "data" : {
-    "run" : 6,
-    "retry" : 4
+    "run" : 3,
+    "retry" : 0
   }
 }, {
   "buildOrder" : 3,

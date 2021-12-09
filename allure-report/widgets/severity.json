@@ -1,60 +1,30 @@
 [ {
-  "uid" : "33665ba775521df9",
-  "name" : "Verify task deleted by name",
+  "uid" : "9dcdbb8020755f6e",
+  "name" : "Verify result saving",
   "time" : {
-    "start" : 1639004477533,
-    "stop" : 1639004481017,
-    "duration" : 3484
+    "start" : 1639048698404,
+    "stop" : 1639048706315,
+    "duration" : 7911
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a9c0499f40878c38",
-  "name" : "Verify task created",
+  "uid" : "d69a6c203309b7c",
+  "name" : "Verify repayment result",
   "time" : {
-    "start" : 1639004472760,
-    "stop" : 1639004473763,
-    "duration" : 1003
+    "start" : 1639048683236,
+    "stop" : 1639048688404,
+    "duration" : 5168
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b5e33d06b91c9aaa",
-  "name" : "Verify in Scientific mode",
+  "uid" : "d9411f2569b82cf7",
+  "name" : "Verify interest result",
   "time" : {
-    "start" : 1639004409229,
-    "stop" : 1639004410866,
-    "duration" : 1637
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d1a4c11d45ad8bd4",
-  "name" : "Verify change of color",
-  "time" : {
-    "start" : 1639004471495,
-    "stop" : 1639004472598,
-    "duration" : 1103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "84e6a4a87d4f40bf",
-  "name" : "Verify all task deleted",
-  "time" : {
-    "start" : 1639004473833,
-    "stop" : 1639004477459,
-    "duration" : 3626
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "51d3667db44ad7d1",
-  "name" : "Verify calc result",
-  "time" : {
-    "start" : 1639004404868,
-    "stop" : 1639004409056,
-    "duration" : 4188
+    "start" : 1639048688504,
+    "stop" : 1639048698390,
+    "duration" : 9886
   },
   "status" : "passed",
   "severity" : "normal"

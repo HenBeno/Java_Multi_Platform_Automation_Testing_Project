@@ -2,90 +2,47 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "CalculatorDesktopTests",
+    "name" : "MortgageCalcAppiumTests",
     "children" : [ {
-      "name" : "test1_VerifyCalcResult",
-      "uid" : "51d3667db44ad7d1",
-      "parentUid" : "1cc9ef3342daf1fb10945364c9e8a67d",
+      "name" : "test01",
+      "uid" : "d69a6c203309b7c",
+      "parentUid" : "4398f6e2ee6e15e9163d027ace721807",
       "status" : "passed",
       "time" : {
-        "start" : 1639004404868,
-        "stop" : 1639004409056,
-        "duration" : 4188
+        "start" : 1639048683236,
+        "stop" : 1639048688404,
+        "duration" : 5168
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "test2_VerifyCalcResult",
-      "uid" : "b5e33d06b91c9aaa",
-      "parentUid" : "1cc9ef3342daf1fb10945364c9e8a67d",
+      "name" : "test02",
+      "uid" : "d9411f2569b82cf7",
+      "parentUid" : "4398f6e2ee6e15e9163d027ace721807",
       "status" : "passed",
       "time" : {
-        "start" : 1639004409229,
-        "stop" : 1639004410866,
-        "duration" : 1637
+        "start" : 1639048688504,
+        "stop" : 1639048698390,
+        "duration" : 9886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test03",
+      "uid" : "9dcdbb8020755f6e",
+      "parentUid" : "4398f6e2ee6e15e9163d027ace721807",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639048698404,
+        "stop" : 1639048706315,
+        "duration" : 7911
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "1cc9ef3342daf1fb10945364c9e8a67d"
-  }, {
-    "name" : "ToDoListElectronTest",
-    "children" : [ {
-      "name" : "VerifyChangeOfColor",
-      "uid" : "d1a4c11d45ad8bd4",
-      "parentUid" : "a29552a23063fc5b23b8add00a31c8e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004471495,
-        "stop" : 1639004472598,
-        "duration" : 1103
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test02_createNewTask",
-      "uid" : "a9c0499f40878c38",
-      "parentUid" : "a29552a23063fc5b23b8add00a31c8e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004472760,
-        "stop" : 1639004473763,
-        "duration" : 1003
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test02_delAllTask",
-      "uid" : "84e6a4a87d4f40bf",
-      "parentUid" : "a29552a23063fc5b23b8add00a31c8e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004473833,
-        "stop" : 1639004477459,
-        "duration" : 3626
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test02_delTaskByName",
-      "uid" : "33665ba775521df9",
-      "parentUid" : "a29552a23063fc5b23b8add00a31c8e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639004477533,
-        "stop" : 1639004481017,
-        "duration" : 3484
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "a29552a23063fc5b23b8add00a31c8e1"
+    "uid" : "4398f6e2ee6e15e9163d027ace721807"
   } ]
 }

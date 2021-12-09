@@ -26,13 +26,6 @@ public class MortgageCalcAppiumTests extends CommonOps {
     @Test(description = "Verify result saving")
     public void test03() {
         getInterestResult("500000", "20", "25");
-        Assert.assertEquals(getInterestResult("500000", "20", "25"),
-                ExternalFilesManager.getData("ExpectedInterest"));
-    }
-
-    @Test(description = "Verify result saving")
-    public void test04() {
-        getInterestResult("500000", "20", "25");
         Assert.assertEquals(getSaveResult(), "500000.0 10538.16 10416.67");
     }
 
