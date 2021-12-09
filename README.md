@@ -1,5 +1,5 @@
-# QA Automation - Multi Platform - Java/Selenium
-### In this project i build a 'smart' automation infrastructure that supports 
+# QA Automation - Multi Platform - Java / Selenium
+In this project i build a 'smart' automation infrastructure that supports 
 multi-platform quality assurance automated testing.
 
 ---
