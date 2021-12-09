@@ -7,7 +7,7 @@ multi-platform quality assurance automated testing.
 
 ## Overview
 
-This project demonstrates automation on the following platforms:
+### This project demonstrates automation on the following platforms:
 
 * Web based application
 
