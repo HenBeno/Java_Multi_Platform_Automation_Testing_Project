@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 09 01:01:11 IST 2021","Thu Dec 09 01:01:12 IST 2021","1103","ElectronSuite","TestToDoList","ToDoListElectronTest","ToDoListElectronTest","VerifyChangeOfColor","Verify change of color",""
+"passed","Thu Dec 09 01:01:13 IST 2021","Thu Dec 09 01:01:17 IST 2021","3626","ElectronSuite","TestToDoList","ToDoListElectronTest","ToDoListElectronTest","test02_delAllTask","Verify all task deleted",""
+"passed","Thu Dec 09 01:01:12 IST 2021","Thu Dec 09 01:01:13 IST 2021","1003","ElectronSuite","TestToDoList","ToDoListElectronTest","ToDoListElectronTest","test02_createNewTask","Verify task created",""
+"passed","Thu Dec 09 01:00:09 IST 2021","Thu Dec 09 01:00:10 IST 2021","1637","DesktopSuite","TestMortgage","CalculatorDesktopTests","CalculatorDesktopTests","test2_VerifyCalcResult","Verify in Scientific mode",""
+"passed","Thu Dec 09 01:01:17 IST 2021","Thu Dec 09 01:01:21 IST 2021","3484","ElectronSuite","TestToDoList","ToDoListElectronTest","ToDoListElectronTest","test02_delTaskByName","Verify task deleted by name",""
+"passed","Thu Dec 09 01:00:04 IST 2021","Thu Dec 09 01:00:09 IST 2021","4188","DesktopSuite","TestMortgage","CalculatorDesktopTests","CalculatorDesktopTests","test1_VerifyCalcResult","Verify calc result",""

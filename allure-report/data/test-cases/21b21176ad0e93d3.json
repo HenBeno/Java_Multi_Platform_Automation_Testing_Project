@@ -1,0 +1,255 @@
+{
+  "uid" : "21b21176ad0e93d3",
+  "name" : "Verify all task deleted",
+  "fullName" : "ToDoListElectronTest.test02_delAllTask",
+  "historyId" : "da3403caaf02e4f91a821caa467db475",
+  "time" : {
+    "start" : 1639004440753,
+    "stop" : 1639004444426,
+    "duration" : 3673
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init driver ",
+    "time" : {
+      "start" : 1639004434202,
+      "stop" : 1639004438350,
+      "duration" : 4148
+    },
+    "description" : "Init driver ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "WorkFlows: Start create task",
+      "time" : {
+        "start" : 1639004440753,
+        "stop" : 1639004441054,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create task - Choose task color",
+        "time" : {
+          "start" : 1639004440753,
+          "stop" : 1639004440854,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "colorToNum",
+          "time" : {
+            "start" : 1639004440793,
+            "stop" : 1639004440793,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "color",
+            "value" : "blue"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "color",
+          "value" : "blue"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create task - Insert task info",
+        "time" : {
+          "start" : 1639004440855,
+          "stop" : 1639004440926,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "taskName",
+          "value" : "TempTask"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create task - Send Enter key to insert the task",
+        "time" : {
+          "start" : 1639004440926,
+          "stop" : 1639004441022,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Verify task created",
+        "time" : {
+          "start" : 1639004441022,
+          "stop" : 1639004441054,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "taskName",
+          "value" : "TempTask"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "TempTask"
+      }, {
+        "name" : "color",
+        "value" : "blue"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "WorkFlows: Start delete task",
+      "time" : {
+        "start" : 1639004441059,
+        "stop" : 1639004444342,
+        "duration" : 3283
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Find and delete task",
+        "time" : {
+          "start" : 1639004441059,
+          "stop" : 1639004441328,
+          "duration" : 269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Verify all task deleted",
+        "time" : {
+          "start" : 1639004441328,
+          "stop" : 1639004444342,
+          "duration" : 3014
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1639004444890,
+      "stop" : 1639004445492,
+      "duration" : 602
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ToDoListElectronTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ToDoListElectronTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_delAllTask"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ElectronSuite"
+  }, {
+    "name" : "suite",
+    "value" : "TestToDoList"
+  }, {
+    "name" : "subSuite",
+    "value" : "ToDoListElectronTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-93TCT2J"
+  }, {
+    "name" : "thread",
+    "value" : "29028@DESKTOP-93TCT2J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21b21176ad0e93d3.json",
+  "parameterValues" : [ ]
+}

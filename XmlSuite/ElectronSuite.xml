@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ElectronSuite" parallel="false">
+    <listeners>
+        <listener class-name="Utilities.AutoListeners"/>
+    </listeners>
+    <test name="TestToDoList">
+        <classes>
+            <class name="ToDoListElectronTest">
+                <parameter name="Platform" value="Electron"/>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,101 @@
+[ {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/5/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1,
+    "Test defects" : 2
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1,
+    "Test defects" : 2
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1,
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 2,
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 5
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 5
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 10
+  }
+} ]

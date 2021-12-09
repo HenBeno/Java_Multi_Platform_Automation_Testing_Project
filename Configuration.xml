@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!--Web-->
+    <WebUlr>http://localhost:3000/login</WebUlr>
+    <WebMainUlr>http://localhost:3000/?orgId=1</WebMainUlr>
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+    <CreateBasicName>Hen</CreateBasicName>
+    <CreateBasicEmail>Hen@gmail.com</CreateBasicEmail>
+    <CreateBasicUserName>HenB</CreateBasicUserName>
+    <CreateBasicPassword>123456</CreateBasicPassword>
+
+    <!--DataBase-->
+    <UrlDataBase>jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6455264</UrlDataBase>
+    <UserNameDataBase>sql6455264</UserNameDataBase>
+    <PasswordDataBase>iRpvF9AjbD</PasswordDataBase>
+
+    <!--Sikuli-->
+    <ImpPath>C:\AutomationMultiPlatformProject\sikuli_IMG\</ImpPath>
+
+    <!--Desktop-->
+    <Signature>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Signature>
+    <ExpectedVerifyCalcResult>360</ExpectedVerifyCalcResult>
+
+    <!--Api-->
+    <baseURL>http://localhost:3000/api/</baseURL>
+    <UserApi>admin</UserApi>
+    <PassApi>admin</PassApi>
+    <ExpectedCleanResponse>"User created"</ExpectedCleanResponse>
+    <ExpectedUserById>admin admin@localhost</ExpectedUserById>
+    <ExpectedUpdateUserById>UpdateUser UpdateUser@gmail.com</ExpectedUpdateUserById>
+    <ExpectedCodeResult>200</ExpectedCodeResult>
+
+    <!--Electron-->
+    <HexColor>D0021B</HexColor>
+    <ExpectedHexColor>background: rgb(208, 2, 27);</ExpectedHexColor>
+    <ExpectedDeleteTask>0</ExpectedDeleteTask>
+
+    <!--Appium-->
+    <ReportDirectory>reports</ReportDirectory>
+    <ReportFormat>xml</ReportFormat>
+    <TestName>Untitled</TestName>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <UDID>207adae9</UDID>
+    <InsertGBP>100000</InsertGBP>
+    <InsertYears>10</InsertYears>
+    <InsertPercent>15</InsertPercent>
+    <ExpectedRepayment>1660.43</ExpectedRepayment>
+    <ExpectedInterest>10416.67</ExpectedInterest>
+
+</Environment>

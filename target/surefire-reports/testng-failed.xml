@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ElectronSuite]">
+  <listeners>
+    <listener class-name="Utilities.AutoListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="TestToDoList(failed)">
+    <classes>
+      <class name="ToDoListElectronTest">
+        <parameter name="Platform" value="Electron"/>
+        <methods>
+          <include name="test02_delTaskByName"/>
+          <include name="closeSession"/>
+          <include name="startSession"/>
+        </methods>
+      </class> <!-- ToDoListElectronTest -->
+    </classes>
+  </test> <!-- TestToDoList(failed) -->
+</suite> <!-- Failed suite [ElectronSuite] -->

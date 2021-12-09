@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebFirefoxSuite" parallel="false">
+    <listeners>
+        <listener class-name="Utilities.AutoListeners"/>
+    </listeners>
+    <test name="TestGrafana">
+        <classes>
+            <class name="GrafanaWebTests">
+                <parameter name="Platform" value="Web"/>
+                <parameter name="Browser" value="Firefox"/>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

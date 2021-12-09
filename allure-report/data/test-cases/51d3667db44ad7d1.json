@@ -1,0 +1,492 @@
+{
+  "uid" : "51d3667db44ad7d1",
+  "name" : "Verify calc result",
+  "fullName" : "CalculatorDesktopTests.test1_VerifyCalcResult",
+  "historyId" : "898c1c4fb64944a334a572434115632b",
+  "time" : {
+    "start" : 1639004404868,
+    "stop" : 1639004409056,
+    "duration" : 4188
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init driver ",
+    "time" : {
+      "start" : 1639004403072,
+      "stop" : 1639004404831,
+      "duration" : 1759
+    },
+    "description" : "Init driver ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "WorkFlow: Calc from string input",
+      "time" : {
+        "start" : 1639004404995,
+        "stop" : 1639004409049,
+        "duration" : 4054
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Convert full string into numbers and operator",
+        "time" : {
+          "start" : 1639004404996,
+          "stop" : 1639004404997,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "myCalc",
+          "value" : "120 * 3"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Convert string number into clicks",
+        "time" : {
+          "start" : 1639004404997,
+          "stop" : 1639004406982,
+          "duration" : 1985
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Split and check number",
+          "time" : {
+            "start" : 1639004405003,
+            "stop" : 1639004406982,
+            "duration" : 1979
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Click Element",
+            "time" : {
+              "start" : 1639004405243,
+              "stop" : 1639004405697,
+              "duration" : 454
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elem",
+              "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='num1Button']]"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Click Element",
+            "time" : {
+              "start" : 1639004405882,
+              "stop" : 1639004406327,
+              "duration" : 445
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elem",
+              "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='num2Button']]"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Click Element",
+            "time" : {
+              "start" : 1639004406569,
+              "stop" : 1639004406982,
+              "duration" : 413
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elem",
+              "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='num0Button']]"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "number",
+            "value" : "120"
+          } ],
+          "stepsCount" : 3,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "number",
+          "value" : "120"
+        } ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Convert string operator into clicks",
+        "time" : {
+          "start" : 1639004406983,
+          "stop" : 1639004407593,
+          "duration" : 610
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check operator",
+          "time" : {
+            "start" : 1639004406983,
+            "stop" : 1639004407593,
+            "duration" : 610
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Click Element",
+            "time" : {
+              "start" : 1639004407159,
+              "stop" : 1639004407593,
+              "duration" : 434
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elem",
+              "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='multiplyButton']]"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "mathAct",
+            "value" : "*"
+          } ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "mathAct",
+          "value" : "*"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Convert string number into clicks",
+        "time" : {
+          "start" : 1639004407594,
+          "stop" : 1639004408216,
+          "duration" : 622
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Split and check number",
+          "time" : {
+            "start" : 1639004407594,
+            "stop" : 1639004408216,
+            "duration" : 622
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Click Element",
+            "time" : {
+              "start" : 1639004407819,
+              "stop" : 1639004408216,
+              "duration" : 397
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elem",
+              "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='num3Button']]"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "number",
+            "value" : "3"
+          } ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "number",
+          "value" : "3"
+        } ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get calc result",
+        "time" : {
+          "start" : 1639004408216,
+          "stop" : 1639004409049,
+          "duration" : 833
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click Element",
+          "time" : {
+            "start" : 1639004408392,
+            "stop" : 1639004408824,
+            "duration" : 432
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elem",
+            "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='equalButton']]"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "myCalc",
+        "value" : "120 * 3"
+      } ],
+      "stepsCount" : 14,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1639004410937,
+      "stop" : 1639004410980,
+      "duration" : 43
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "CalculatorDesktopTests"
+  }, {
+    "name" : "testClass",
+    "value" : "CalculatorDesktopTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1_VerifyCalcResult"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DesktopSuite"
+  }, {
+    "name" : "suite",
+    "value" : "TestMortgage"
+  }, {
+    "name" : "subSuite",
+    "value" : "CalculatorDesktopTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-93TCT2J"
+  }, {
+    "name" : "thread",
+    "value" : "41468@DESKTOP-93TCT2J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 11,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "7ee080538afe866",
+        "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure/#testresult/7ee080538afe866",
+        "status" : "skipped",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-93TCT2J', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+        "time" : {
+          "start" : 1639003782646,
+          "stop" : 1639003782734,
+          "duration" : 88
+        }
+      }, {
+        "uid" : "7a5dc9daf63c56bf",
+        "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/2/allure/#testresult/7a5dc9daf63c56bf",
+        "status" : "skipped",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-93TCT2J', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+        "time" : {
+          "start" : 1639003656810,
+          "stop" : 1639003656913,
+          "duration" : 103
+        }
+      }, {
+        "uid" : "f0ef786db133f01",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/11/allure/#testresult/f0ef786db133f01",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001677098,
+          "stop" : 1639001677101,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "cc603f393dde35c8",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/10/allure/#testresult/cc603f393dde35c8",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001677098,
+          "stop" : 1639001677101,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "fd975dc32146aba7",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/9/allure/#testresult/fd975dc32146aba7",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001677098,
+          "stop" : 1639001677101,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "5e54573aed43875f",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/8/allure/#testresult/5e54573aed43875f",
+        "status" : "skipped",
+        "statusDetails" : "Invalid platform type",
+        "time" : {
+          "start" : 1639001566600,
+          "stop" : 1639001566601,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "83029da09eae7f04",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/7/allure/#testresult/83029da09eae7f04",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001499263,
+          "stop" : 1639001499266,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "c7d8afeaaeba8e18",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/6/allure/#testresult/c7d8afeaaeba8e18",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001164912,
+          "stop" : 1639001164915,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "324c99717f2e6b6d",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/5/allure/#testresult/324c99717f2e6b6d",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639000576190,
+          "stop" : 1639000576194,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "5f122d993c6ed90b",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/4/allure/#testresult/5f122d993c6ed90b",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639000370558,
+          "stop" : 1639000370562,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "3d510b3ed0ff2d3b",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/3/allure/#testresult/3d510b3ed0ff2d3b",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1638999605393,
+          "stop" : 1638999605395,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "51d3667db44ad7d1.json",
+  "parameterValues" : [ ]
+}

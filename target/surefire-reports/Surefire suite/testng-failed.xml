@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="ToDoListElectronTest">
+        <methods>
+          <include name="test02_delAllTask"/>
+          <include name="test02_createNewTask"/>
+          <include name="test02_delTaskByName"/>
+          <include name="closeSession"/>
+          <include name="startSession"/>
+          <include name="VerifyChangeOfColor"/>
+        </methods>
+      </class> <!-- ToDoListElectronTest -->
+      <class name="GrafanaWebTests">
+        <methods>
+          <include name="test01_VerifyAdminPrivilege"/>
+          <include name="test05_VerifyAllUsersDelete"/>
+          <include name="test6_VerifyDashboardCreated"/>
+          <include name="test02_VerifyUserExistsByUserName"/>
+          <include name="test03_createNewUser"/>
+          <include name="test04_VerifyAllUsersDelete"/>
+          <include name="closeSession"/>
+          <include name="startSession"/>
+        </methods>
+      </class> <!-- GrafanaWebTests -->
+      <class name="CalculatorDesktopTests">
+        <methods>
+          <include name="closeSession"/>
+          <include name="test1_VerifyCalcResult"/>
+          <include name="startSession"/>
+          <include name="test2_VerifyCalcResult"/>
+        </methods>
+      </class> <!-- CalculatorDesktopTests -->
+      <class name="GrafanaApiTests">
+        <methods>
+          <include name="test01_VerifyCreateUserApi"/>
+          <include name="test03_VerifyUpdateUserInfoById"/>
+          <include name="test03_VerifyDeleteUserById"/>
+          <include name="closeSession"/>
+          <include name="test02_VerifyFindUserByIdApi"/>
+          <include name="startSession"/>
+        </methods>
+      </class> <!-- GrafanaApiTests -->
+      <class name="MortgageCalcAppiumTests">
+        <methods>
+          <include name="test03"/>
+          <include name="test04"/>
+          <include name="test01"/>
+          <include name="test02"/>
+          <include name="closeSession"/>
+          <include name="startSession"/>
+        </methods>
+      </class> <!-- MortgageCalcAppiumTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

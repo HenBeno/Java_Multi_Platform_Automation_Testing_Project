@@ -1,0 +1,151 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-93TCT2J",
+    "children" : [ {
+      "name" : "13476@DESKTOP-93TCT2J.main(1)",
+      "children" : [ {
+        "name" : "Verify task deleted by name",
+        "uid" : "33665ba775521df9",
+        "parentUid" : "b0716e459528d517ba68cd2a4b130e15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004477533,
+          "stop" : 1639004481017,
+          "duration" : 3484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify all task deleted",
+        "uid" : "84e6a4a87d4f40bf",
+        "parentUid" : "b0716e459528d517ba68cd2a4b130e15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004473833,
+          "stop" : 1639004477459,
+          "duration" : 3626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify task created",
+        "uid" : "a9c0499f40878c38",
+        "parentUid" : "b0716e459528d517ba68cd2a4b130e15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004472760,
+          "stop" : 1639004473763,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify change of color",
+        "uid" : "d1a4c11d45ad8bd4",
+        "parentUid" : "b0716e459528d517ba68cd2a4b130e15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004471495,
+          "stop" : 1639004472598,
+          "duration" : 1103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0716e459528d517ba68cd2a4b130e15"
+    }, {
+      "name" : "29028@DESKTOP-93TCT2J.main(1)",
+      "children" : [ {
+        "name" : "Verify all task deleted",
+        "uid" : "21b21176ad0e93d3",
+        "parentUid" : "b9ece929d7cdfd9cf17f3ba760dbe111",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004440753,
+          "stop" : 1639004444426,
+          "duration" : 3673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify change of color",
+        "uid" : "4377ebf49dc93180",
+        "parentUid" : "b9ece929d7cdfd9cf17f3ba760dbe111",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004438526,
+          "stop" : 1639004439467,
+          "duration" : 941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify task deleted by name",
+        "uid" : "9831abbb603f259d",
+        "parentUid" : "b9ece929d7cdfd9cf17f3ba760dbe111",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639004444434,
+          "stop" : 1639004444883,
+          "duration" : 449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify task created",
+        "uid" : "6d7bf4ebcefdf246",
+        "parentUid" : "b9ece929d7cdfd9cf17f3ba760dbe111",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004439579,
+          "stop" : 1639004440741,
+          "duration" : 1162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9ece929d7cdfd9cf17f3ba760dbe111"
+    }, {
+      "name" : "41468@DESKTOP-93TCT2J.main(1)",
+      "children" : [ {
+        "name" : "Verify in Scientific mode",
+        "uid" : "b5e33d06b91c9aaa",
+        "parentUid" : "6643cf499650d00e38cedf5db86f1553",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004409229,
+          "stop" : 1639004410866,
+          "duration" : 1637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify calc result",
+        "uid" : "51d3667db44ad7d1",
+        "parentUid" : "6643cf499650d00e38cedf5db86f1553",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639004404868,
+          "stop" : 1639004409056,
+          "duration" : 4188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6643cf499650d00e38cedf5db86f1553"
+    } ],
+    "uid" : "19dd4a692e0425c025dac20efa1ffef4"
+  } ]
+}

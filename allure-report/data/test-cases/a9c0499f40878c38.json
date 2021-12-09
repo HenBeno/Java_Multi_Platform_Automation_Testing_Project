@@ -1,0 +1,573 @@
+{
+  "uid" : "a9c0499f40878c38",
+  "name" : "Verify task created",
+  "fullName" : "ToDoListElectronTest.test02_createNewTask",
+  "historyId" : "8b0f8bc72e0993bc197c04549f6ccef2",
+  "time" : {
+    "start" : 1639004472760,
+    "stop" : 1639004473763,
+    "duration" : 1003
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init driver ",
+    "time" : {
+      "start" : 1639004467683,
+      "stop" : 1639004471462,
+      "duration" : 3779
+    },
+    "description" : "Init driver ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "WorkFlows: Start create task",
+      "time" : {
+        "start" : 1639004472789,
+        "stop" : 1639004473137,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create task - Choose task color",
+        "time" : {
+          "start" : 1639004472789,
+          "stop" : 1639004472921,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "colorToNum",
+          "time" : {
+            "start" : 1639004472844,
+            "stop" : 1639004472844,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "color",
+            "value" : "red"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "color",
+          "value" : "red"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create task - Insert task info",
+        "time" : {
+          "start" : 1639004472921,
+          "stop" : 1639004472989,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "taskName",
+          "value" : "Task0"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create task - Send Enter key to insert the task",
+        "time" : {
+          "start" : 1639004472989,
+          "stop" : 1639004473103,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Verify task created",
+        "time" : {
+          "start" : 1639004473103,
+          "stop" : 1639004473137,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "taskName",
+          "value" : "Task0"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "Task0"
+      }, {
+        "name" : "color",
+        "value" : "red"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "WorkFlows: Start create task",
+      "time" : {
+        "start" : 1639004473140,
+        "stop" : 1639004473526,
+        "duration" : 386
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create task - Choose task color",
+        "time" : {
+          "start" : 1639004473140,
+          "stop" : 1639004473256,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "colorToNum",
+          "time" : {
+            "start" : 1639004473190,
+            "stop" : 1639004473190,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "color",
+            "value" : "red"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "color",
+          "value" : "red"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create task - Insert task info",
+        "time" : {
+          "start" : 1639004473256,
+          "stop" : 1639004473385,
+          "duration" : 129
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "taskName",
+          "value" : "Task1"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create task - Send Enter key to insert the task",
+        "time" : {
+          "start" : 1639004473385,
+          "stop" : 1639004473499,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Verify task created",
+        "time" : {
+          "start" : 1639004473499,
+          "stop" : 1639004473526,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "taskName",
+          "value" : "Task1"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "Task1"
+      }, {
+        "name" : "color",
+        "value" : "red"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "WorkFlows: Start create task",
+      "time" : {
+        "start" : 1639004473526,
+        "stop" : 1639004473763,
+        "duration" : 237
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create task - Choose task color",
+        "time" : {
+          "start" : 1639004473526,
+          "stop" : 1639004473621,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "colorToNum",
+          "time" : {
+            "start" : 1639004473574,
+            "stop" : 1639004473574,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "color",
+            "value" : "red"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "color",
+          "value" : "red"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create task - Insert task info",
+        "time" : {
+          "start" : 1639004473621,
+          "stop" : 1639004473660,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "taskName",
+          "value" : "Task2"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create task - Send Enter key to insert the task",
+        "time" : {
+          "start" : 1639004473660,
+          "stop" : 1639004473735,
+          "duration" : 75
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Verify task created",
+        "time" : {
+          "start" : 1639004473735,
+          "stop" : 1639004473763,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "taskName",
+          "value" : "Task2"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "Task2"
+      }, {
+        "name" : "color",
+        "value" : "red"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1639004481090,
+      "stop" : 1639004481725,
+      "duration" : 635
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ToDoListElectronTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ToDoListElectronTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_createNewTask"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ElectronSuite"
+  }, {
+    "name" : "suite",
+    "value" : "TestToDoList"
+  }, {
+    "name" : "subSuite",
+    "value" : "ToDoListElectronTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-93TCT2J"
+  }, {
+    "name" : "thread",
+    "value" : "13476@DESKTOP-93TCT2J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d7bf4ebcefdf246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639004439579,
+        "stop" : 1639004440741,
+        "duration" : 1162
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 9,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "dc5ec6781639e9eb",
+        "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/3/allure/#testresult/dc5ec6781639e9eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639003306141,
+          "stop" : 1639003307041,
+          "duration" : 900
+        }
+      }, {
+        "uid" : "c3cf78ee7c71d65e",
+        "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/2/allure/#testresult/c3cf78ee7c71d65e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639003306141,
+          "stop" : 1639003307041,
+          "duration" : 900
+        }
+      }, {
+        "uid" : "232333ee08e2ad75",
+        "reportUrl" : "http://localhost:9090/job/CalculatorDesktopTests/1/allure/#testresult/232333ee08e2ad75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639003306141,
+          "stop" : 1639003307041,
+          "duration" : 900
+        }
+      }, {
+        "uid" : "aa83a1b2e00295f6",
+        "reportUrl" : "http://localhost:9090/job/ToDoListElectronTest/1/allure/#testresult/aa83a1b2e00295f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639003105955,
+          "stop" : 1639003106883,
+          "duration" : 928
+        }
+      }, {
+        "uid" : "3a8917f27657ee0c",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/11/allure/#testresult/3a8917f27657ee0c",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001678145,
+          "stop" : 1639001678145,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "19ad68b77f5c5af8",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/10/allure/#testresult/19ad68b77f5c5af8",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001678145,
+          "stop" : 1639001678145,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a9f24729a5a4be1c",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/9/allure/#testresult/a9f24729a5a4be1c",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001678145,
+          "stop" : 1639001678145,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9d5521c03dcd77a1",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/8/allure/#testresult/9d5521c03dcd77a1",
+        "status" : "skipped",
+        "statusDetails" : "Invalid platform type",
+        "time" : {
+          "start" : 1639001568019,
+          "stop" : 1639001568020,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ac4bbaadab5ee679",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/7/allure/#testresult/ac4bbaadab5ee679",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001500762,
+          "stop" : 1639001500763,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "59d851764d95d2de",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/6/allure/#testresult/59d851764d95d2de",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639001166085,
+          "stop" : 1639001166086,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cd2c54d1754e1e8a",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/5/allure/#testresult/cd2c54d1754e1e8a",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639000577437,
+          "stop" : 1639000577437,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cc93be731e50be3d",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/4/allure/#testresult/cc93be731e50be3d",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1639000371353,
+          "stop" : 1639000371353,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "533bef49087d22bf",
+        "reportUrl" : "http://localhost:9090/job/GrafanaApiTests/3/allure/#testresult/533bef49087d22bf",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method startSession but has not been marked @Optional or defined\n",
+        "time" : {
+          "start" : 1638999606616,
+          "stop" : 1638999606616,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a9c0499f40878c38.json",
+  "parameterValues" : [ ]
+}
