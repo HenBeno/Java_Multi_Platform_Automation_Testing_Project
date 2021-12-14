@@ -34,13 +34,16 @@ public class Base {
     //Api
     public static RequestSpecification req;
     public static Response res;
+
     //Web
     protected static WebDriver driver;
     protected static Actions actions;
     protected static WebDriverWait wait;
+
     //Sikuli
     protected static Screen screen;
     protected static String impPath;
+
     //Database
     protected static String dbUrl;
     protected static ResultSet rs;
@@ -51,8 +54,10 @@ public class Base {
     protected static List<String> listOfUsersFromDB;
     protected static List<String> listOfPasswordFromDB;
     protected static List<String> listOfNamesFromDB;
+
     //Electron
     protected static ChromeOptions opt;
+
     //Appium
     protected static AndroidDriver<AndroidElement> driverAndroid;
     protected static Dimension dims;

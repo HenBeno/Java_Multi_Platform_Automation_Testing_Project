@@ -1,6 +1,7 @@
 package WorkFlows.AppiumWorkFlows;
 
 import Extension.AppiumAction;
+import Extension.UiAction;
 import Utilities.CommonOps;
 import io.qameta.allure.Step;
 
@@ -22,14 +23,14 @@ public class AppiumCreateNewCalc extends CommonOps {
 
     @Step("insert details")
     public static void insertDetails(String gbp, String years, String percent) {
-        AppiumAction.sendKey(mortgageCalcPage.getGpbFiled(), gbp);
-        AppiumAction.sendKey(mortgageCalcPage.getYears(), years);
-        AppiumAction.sendKey(mortgageCalcPage.getRate(), percent);
+        UiAction.sendKeys(mortgageCalcPage.getGpbFiled(), gbp);
+        UiAction.sendKeys(mortgageCalcPage.getYears(), years);
+        UiAction.sendKeys(mortgageCalcPage.getRate(), percent);
     }
 
     @Step("click on calculate button")
     public static void calculate() {
-        AppiumAction.click(mortgageCalcPage.getCalculateBTN());
+        UiAction.click(mortgageCalcPage.getCalculateBTN());
     }
 
     @Step("get payment result")

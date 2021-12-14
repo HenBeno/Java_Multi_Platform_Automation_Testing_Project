@@ -29,6 +29,7 @@
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
         </dependency>
+
         <!--WebDriver-->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>

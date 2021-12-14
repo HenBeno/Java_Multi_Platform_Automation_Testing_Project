@@ -73,7 +73,6 @@ public class CommonOps extends Base {
                 break;
             default:
                 throw new Exception("Invalid platform type");
-
         }
     }
 

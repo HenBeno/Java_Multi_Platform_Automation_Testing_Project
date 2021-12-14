@@ -10,14 +10,4 @@ public class AppiumAction {
         return result.replaceAll("[£]", "");
     }
 
-    @Step("Appium click")
-    public static void click(WebElement elem) {
-        elem.click();
-    }
-
-    @Step("Appium sendKey")
-    public static void sendKey(WebElement elem, String value) {
-        elem.clear();
-        elem.sendKeys(value);
-    }
 }

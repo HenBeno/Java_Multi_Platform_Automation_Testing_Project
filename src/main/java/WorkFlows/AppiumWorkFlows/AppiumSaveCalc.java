@@ -1,6 +1,7 @@
 package WorkFlows.AppiumWorkFlows;
 
 import Extension.AppiumAction;
+import Extension.UiAction;
 import Utilities.CommonOps;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
@@ -20,7 +21,7 @@ public class AppiumSaveCalc extends CommonOps {
 
     @Step("Click Save btn")
     public static void saveResult() {
-        AppiumAction.click(mortgageCalcPage.getSaveResultBtn());
+        UiAction.click(mortgageCalcPage.getSaveResultBtn());
 
     }
 

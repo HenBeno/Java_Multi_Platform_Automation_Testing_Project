@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Dec 09 13:18:18 IST 2021","Thu Dec 09 13:18:26 IST 2021","7911","AppiumSuite","TestMortgage","MortgageCalcAppiumTests","MortgageCalcAppiumTests","test03","Verify result saving",""
-"passed","Thu Dec 09 13:18:03 IST 2021","Thu Dec 09 13:18:08 IST 2021","5168","AppiumSuite","TestMortgage","MortgageCalcAppiumTests","MortgageCalcAppiumTests","test01","Verify repayment result",""
-"passed","Thu Dec 09 13:18:08 IST 2021","Thu Dec 09 13:18:18 IST 2021","9886","AppiumSuite","TestMortgage","MortgageCalcAppiumTests","MortgageCalcAppiumTests","test02","Verify interest result",""
