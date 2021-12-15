@@ -7,7 +7,7 @@ import io.qameta.allure.Step;
 
 public class LogInWF extends CommonOps {
 
-    @Step("WorkFlow: Login")
+    @Step("WorkFlow: Before Class Login")
     public static void logInWF() {
         insertLoginDetails();
         loginBtnClick();
@@ -26,7 +26,7 @@ public class LogInWF extends CommonOps {
         UiAction.sendKeys(grafanaLoginPage.getPasswordInputField(), password);
     }
 
-    @Step("Login - Insert user name and password")
+    @Step("Login - Before Class - Insert user name and password")
     private static void insertLoginDetails() {
         UiAction.sendKeys(grafanaLoginPage.getUserNameInputField(), ExternalFilesManager.getData("UserName"));
         UiAction.sendKeys(grafanaLoginPage.getPasswordInputField(), ExternalFilesManager.getData("Password"));

@@ -6,7 +6,7 @@ import org.sikuli.script.FindFailed;
 
 public class CreateDashBoardSikuli extends CommonOps {
 
-    @Step("WorkFlow: Create dashBoard by sikuli")
+    @Step("WorkFlow: Create dashboard by sikuli")
     public static boolean createDashBoardSikuli() throws FindFailed {
 
         openAddDashboardMenu();
@@ -17,17 +17,17 @@ public class CreateDashBoardSikuli extends CommonOps {
         return verifyCreate();
     }
 
-    @Step("Open add dashboard menu")
+    @Step("Open 'add dashboard' menu")
     private static void openAddDashboardMenu() throws FindFailed {
         screen.hover(impPath + "plus.png");
     }
 
-    @Step("Click dashboard create bar")
+    @Step("Click 'dashboard create' bar")
     private static void clickDashboardCreate() throws FindFailed {
         screen.click(impPath + "dashboard.png");
     }
 
-    @Step("Add empty panel")
+    @Step("Click add empty panel button ")
     private static void AddEmptyPanel() throws FindFailed {
         screen.click(impPath + "addDash.png");
     }
@@ -37,7 +37,7 @@ public class CreateDashBoardSikuli extends CommonOps {
         screen.click(impPath + "saveDash.png");
     }
 
-    @Step("Approve save panel")
+    @Step("Click 'Approve save' panel button")
     private static void approveSavePanel() throws FindFailed {
         screen.click(impPath + "approveSave.png");
     }

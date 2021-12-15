@@ -10,7 +10,7 @@ import static WorkFlows.WebWorkFlows.GrafanaWeb.LogInWF.logInWF;
 
 public class LoginByDataBase extends CommonOps {
 
-    @Step("Login - Verify login successfully")
+    @Step("WorkFlow: Login using DB")
     public static void verifyLoginDB() {
         getLoginDetails();
         logOut();
@@ -24,7 +24,7 @@ public class LoginByDataBase extends CommonOps {
         UiAction.elementHoverAndElementClick(actions, grafanaLeftBarPage.getAvatarLogo(), grafanaLeftBarPage.getAvatarLogOut());
     }
 
-    @Step("log in using database")
+    @Step("Login all users in database")
     public static void logInFromDB() {
         int i = 0;
         while (i < listOfUsersFromDB.size()) {

@@ -22,7 +22,7 @@ public class GrafanaWebTests extends CommonOps {
 
     @Test(description = "Verify user exists by UserName")
     public void test02_VerifyUserExistsByUserName() {
-        Assert.assertEquals(CreateUser.verifyUserCreated("HenB"), "HenB is exists", "Test02 fail - User not exists");
+        Assert.assertEquals(CreateUser.verifyUserCreated("HenB"), "HenB is exists", "Test02 fail - User does not exist");
     }
 
     @Test(dataProvider = "data-provider", description = "Create new users by DDT", dataProviderClass = DataDrivenTestingManager.class)
@@ -39,7 +39,7 @@ public class GrafanaWebTests extends CommonOps {
 
     @Test(description = "Verify all users are deleted")
     public void test05_VerifyAllUsersDelete() {
-        Assert.assertFalse(DeleteUser.deleteAllUsers(), "Test04 fail - Not all users are deleted");
+        Assert.assertFalse(DeleteUser.deleteAllUsers(), "Test04 fail - Not all users have been deleted");
     }
 
     @Test(description = "Create dashboard by sikuli")

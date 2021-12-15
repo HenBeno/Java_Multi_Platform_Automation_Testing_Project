@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class DeleteUser extends CommonOps {
 
-    @Step("Delete user by user name workflow")
+    @Step("WorkFlow: Delete user by user name")
     public static void deleteUserByName(String userName) {
         navigateToDeleteUsrPage();
         userToDelete(userName);
@@ -15,14 +15,14 @@ public class DeleteUser extends CommonOps {
         verifyUserDeleted(userName);
     }
 
-    @Step("Delete all users workflow")
+    @Step("WorkFlow: Delete all users")
     public static boolean deleteAllUsers() {
         navigateToDeleteUsrPage();
         deleteAllListOfUsers();
         return verifyAllUserDeleted();
     }
 
-    @Step("Navigate to delete user page")
+    @Step("Navigate to 'delete user' page")
     public static void navigateToDeleteUsrPage() {
         UiAction.elementHoverAndElementClick(actions, grafanaLeftBarPage.getSettingsLogo(), grafanaLeftBarPage.getSettingsUsers());
     }
@@ -35,7 +35,7 @@ public class DeleteUser extends CommonOps {
         }
     }
 
-    @Step("Search user by user to delete")
+    @Step("Search user to delete - by user")
     private static void deleteAllListOfUsers() {
         for (int i = grafanaDeleteUserPage.getListOfAllUserNames().size() - 1; i >= 0; i--) {
             if (!grafanaDeleteUserPage.getListOfAllUserNames().get(i).getText().equals("admin")) {
@@ -45,12 +45,12 @@ public class DeleteUser extends CommonOps {
         }
     }
 
-    @Step("Approve delete user")
+    @Step("Click approve 'delete user' button")
     private static void approveDelete() {
         UiAction.click(grafanaDeleteUserPage.getApproveDeleteBtn());
     }
 
-    @Step("Verify user deleted")
+    @Step("Verify the user is deleted")
     public static boolean verifyUserDeleted(String userName) {
         navigateToDeleteUsrPage();
         UiAction.sendKeys(grafanaDeleteUserPage.getSearch(), userName);
@@ -64,7 +64,7 @@ public class DeleteUser extends CommonOps {
         return true;
     }
 
-    @Step("Verify all user deleted (exclude admin)")
+    @Step("Verify all users are deleted (exclude admin)")
     private static boolean verifyAllUserDeleted() {
         for (WebElement a :
                 grafanaDeleteUserPage.getListOfAllUserNames()) {

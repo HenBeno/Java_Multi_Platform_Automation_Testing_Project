@@ -2,6 +2,7 @@ package WorkFlows.WebWorkFlows.GrafanaWeb;
 
 import Extension.UiAction;
 import Utilities.CommonOps;
+import Utilities.ExternalFilesManager;
 import com.google.common.util.concurrent.Uninterruptibles;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
@@ -12,10 +13,18 @@ public class CreateUser extends CommonOps {
 
     @Step("WorkFlow: Create users")
     public static void createUser(String name, String email, String userName, String password) {
-        navigateToCreateUsrPage();
+        navigateToCreateUserPage();
         startCreateUserBtn();
         insertNewUserDetails(name, email, userName, password);
         finishCreateUserBtn();
+    }
+
+    @Step("WorkFlow: Before Class Create users")
+    public static void createUserBeforeClass() {
+        createUser(ExternalFilesManager.getData("CreateBasicName"),
+                ExternalFilesManager.getData("CreateBasicEmail"),
+                ExternalFilesManager.getData("CreateBasicUserName"),
+                ExternalFilesManager.getData("CreateBasicPassword"));
     }
 
     @Step("Create users using DDL")
@@ -24,8 +33,8 @@ public class CreateUser extends CommonOps {
         softAssert.assertEquals(verifyUserCreated(userName), userName + " is exists", "Test02 fail - User not exists");
     }
 
-    @Step("Navigate to create user page")
-    private static void navigateToCreateUsrPage() {
+    @Step("Navigate to 'create user' page")
+    private static void navigateToCreateUserPage() {
         UiAction.elementHoverAndElementClick(actions, grafanaLeftBarPage.getShieldLogo(), grafanaLeftBarPage.getShieldUsers());
     }
 
@@ -49,7 +58,7 @@ public class CreateUser extends CommonOps {
 
     @Step("Verify user is successfully created")
     public static String verifyUserCreated(String userName) {
-        navigateToCreateUsrPage();
+        navigateToCreateUserPage();
         UiAction.sendKeys(grafanaCreateUserPage.getSearchInput(), userName);
         Uninterruptibles.sleepUninterruptibly(3, TimeUnit.SECONDS);
 

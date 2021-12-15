@@ -30,6 +30,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
 import static WorkFlows.WebWorkFlows.GrafanaWeb.CreateUser.createUser;
+import static WorkFlows.WebWorkFlows.GrafanaWeb.CreateUser.createUserBeforeClass;
 import static WorkFlows.WebWorkFlows.GrafanaWeb.LogInWF.logInWF;
 
 public class CommonOps extends Base {
@@ -86,10 +87,7 @@ public class CommonOps extends Base {
         PageObjectManager.pageObjectManager(platform);
         logInWF();
         initActions();
-        createUser(ExternalFilesManager.getData("CreateBasicName"),
-                ExternalFilesManager.getData("CreateBasicEmail"),
-                ExternalFilesManager.getData("CreateBasicUserName"),
-                ExternalFilesManager.getData("CreateBasicPassword"));
+        createUserBeforeClass();
         initScreenSikuli();
     }
 
